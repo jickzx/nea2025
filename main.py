@@ -8,9 +8,9 @@ class WelcomeScreen:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Welcome!")
-        self.root.geometry("500x250")  # Increased height to accommodate new button
+        self.root.geometry("500x250")  
         self.root.resizable(False, False)
-        
+
         self.create_widgets()
         self.root.mainloop()
     
